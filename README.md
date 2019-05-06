@@ -17,6 +17,8 @@ Skill-Replacer 忍者火焰术 - 无查克拉消耗(即 无限喷火) 等...
 
 - Lv.65 忍者 原始 [标枪连射VIII] 技能被替换为 [火焰术VII]
 
+- 拳师觉醒技能 颱風連打 无限释放
+
 - config.json 中默认配置了更多其他职业的技能 没时间全部测试...
 
 ![screenshot](https://github.com/zc149352394/Skill-Replacer/blob/master/screenshot/01.png)
