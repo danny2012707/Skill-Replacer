@@ -6,13 +6,13 @@
                 "enabled": true,
                 "Description": "双刀(Warrior)二段劍舞 -> No Cooldown",
                 "replace2Skill": 400112,
-                "autoRepeat": false
+                "autoRepeat": true
             },
             "41": {
                 "enabled": true,
                 "Description": "双刀(Warrior)縱斷劈擊 -> No Cooldown",
                 "replace2Skill": 410131,
-                "autoRepeat": false
+                "autoRepeat": true
             }
         },
         "1": {
@@ -20,7 +20,7 @@
                 "enabled": true,
                 "Description": "双刀(Warrior)連續攻擊 -> 只有第一段",
                 "replace2Skill": 11200,
-                "autoRepeat": false
+                "autoRepeat": true
             }
         },
         "2": {
@@ -28,7 +28,7 @@
                 "enabled": true,
                 "Description": "大剑(Slayer)連續攻擊 -> 只有第一段",
                 "replace2Skill": 21130,
-                "autoRepeat": false
+                "autoRepeat": true
             }
         },
         "3": {
@@ -36,7 +36,7 @@
                 "enabled": true,
                 "Description": "斧头(Berserker)向上砍擊 -> No Cooldown",
                 "replace2Skill": 320101,
-                "autoRepeat": false
+                "autoRepeat": true
             }
         },
         "4": {
@@ -44,19 +44,19 @@
                 "enabled": true,
                 "Description": "魔道(Sorcerer)爆裂球 -> Arcane Pulse (Mana Boost)",
                 "replace2Skill": 330112,
-                "autoRepeat": false
+                "autoRepeat": true
             },
             "6": {
                 "enabled": true,
                 "Description": "魔道(Sorcerer)隕石墜落 -> Meteor Shower (Mana Boost)",
                 "replace2Skill": 320100,
-                "autoRepeat": false
+                "autoRepeat": true
             },
             "36": {
                 "enabled": true,
                 "Description": "魔道(Sorcerer)元素融合 -> Element Fusion (Mana Boost)",
                 "replace2Skill": 360600,
-                "autoRepeat": false
+                "autoRepeat": true
             }
         },
         "9": {
@@ -64,25 +64,25 @@
                 "enabled": true,
                 "Description": "魔工(Gunner)神秘光束砲擊 -> Blast (MWS)",
                 "replace2Skill": 420101,
-                "autoRepeat": false
+                "autoRepeat": true
             },
             "13": {
                 "enabled": true,
                 "Description": "魔工(Gunner)殲滅之光 -> Balder's Vengeance (MWS)",
                 "replace2Skill": 440101,
-                "autoRepeat": false
+                "autoRepeat": true
             },
             "40": {
                 "enabled": true,
                 "Description": "魔工(Gunner)爆衝: 裝填導彈 -> Dash Reload (MWS)",
                 "replace2Skill": 400102,
-                "autoRepeat": false
+                "autoRepeat": true
             },
             "43": {
                 "enabled": true,
                 "Description": "魔工(Gunner)神秘光線 -> Remote Trigger (MWS)",
                 "replace2Skill": 430103,
-                "autoRepeat": false
+                "autoRepeat": true
             }
         },
         "10": {
@@ -90,7 +90,7 @@
                 "enabled": true,
                 "Description": "拳师(Brawler)颱風連打 -> 無限颱風",
                 "replace2Skill": 260105,
-                "autoRepeat": false
+                "autoRepeat": true
             }
         },
         "11": {
@@ -106,7 +106,7 @@
                 "enabled": true,
                 "Description": "月光(Valkyrie)開戰 -> No Cooldown God Fall (no power buff)",
                 "replace2Skill": 250103,
-                "autoRepeat": false
+                "autoRepeat": true
             }
         }
     }
