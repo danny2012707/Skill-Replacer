@@ -18,7 +18,7 @@
         "1": {
             "1": {
                 "enabled": true,
-                "Description": "連續攻擊 -> 只有第一段",
+                "Description": "弓箭(Archer)一般射擊 XII -> 只有第一段",
                 "replace2Skill": 11200,
                 "autoRepeat": false
             }
@@ -26,7 +26,7 @@
         "2": {
             "2": {
                 "enabled": true,
-                "Description": "連續攻擊 -> 只有第一段",
+                "Description": "大剑(Slayer)重擊斬 XI -> 只有第一段",
                 "replace2Skill": 21130,
                 "autoRepeat": false
             }
@@ -34,7 +34,7 @@
         "3": {
             "32": {
                 "enabled": true,
-                "Description": "斧头(Berserker)向上砍擊 -> No Cooldown",
+                "Description": "斧头(Berserker)向上砍擊 I -> No Cooldown",
                 "replace2Skill": 320101,
                 "autoRepeat": false
             }
@@ -42,13 +42,13 @@
         "4": {
             "4": {
                 "enabled": true,
-                "Description": "魔道(Sorcerer)爆裂球 -> Arcane Pulse (Mana Boost)",
+                "Description": "魔道(Sorcerer)爆裂球 I -> Arcane Pulse (Mana Boost)",
                 "replace2Skill": 330112,
                 "autoRepeat": false
             },
             "6": {
                 "enabled": true,
-                "Description": "魔道(Sorcerer)隕石墜落 -> Meteor Shower (Mana Boost)",
+                "Description": "魔道(Sorcerer)隕石墜落 I -> Meteor Shower (Mana Boost)",
                 "replace2Skill": 320100,
                 "autoRepeat": false
             },
@@ -68,7 +68,7 @@
             },
             "13": {
                 "enabled": true,
-                "Description": "魔工(Gunner)殲滅之光 -> Balder's Vengeance (MWS)",
+                "Description": "魔工(Gunner)殲滅之光 II -> Balder's Vengeance (MWS)",
                 "replace2Skill": 440101,
                 "autoRepeat": false
             },
