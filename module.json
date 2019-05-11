@@ -1,0 +1,15 @@
+{
+    "disableAutoUpdate": false,
+    "name": "Skill-Replacer",
+    "options": {
+        "niceName": "Skill-Replacer",
+        "guiName": "Skill-Replacer",
+        "settingsFile": "config.json",
+        "settingsMigrator": "settings_migrator.js",
+        "settingsVersion": 1
+    },
+    "author": "ZC",
+    "description": "描述: ",
+    "servers": ["https://raw.githubusercontent.com/tera-mod/Skill-Replacer/master/"],
+    "supportUrl": "https://github.com/tera-mod/Skill-Replacer/issues"
+}

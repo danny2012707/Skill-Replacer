@@ -25,6 +25,8 @@ Skill-Replacer 忍者火焰术 - 无查克拉消耗(即 无限喷火) 等...
 
 ![screenshot](https://github.com/zc149352394/Skill-Replacer/blob/master/screenshot/02.png)
 
+------
+
 /8频道 键入命令 | 效果说明
 --- | ---
 sr on | 开启模组
