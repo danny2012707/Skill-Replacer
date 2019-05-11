@@ -11,5 +11,6 @@
     "author": "ZC",
     "description": "描述: ",
     "servers": ["https://raw.githubusercontent.com/tera-mod/Skill-Replacer/master/"],
-    "supportUrl": "https://github.com/tera-mod/Skill-Replacer/issues"
+    "supportUrl": "https://github.com/tera-mod/Skill-Replacer/issues",
+    "version": "81.03"
 }
