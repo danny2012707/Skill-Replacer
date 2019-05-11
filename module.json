@@ -3,10 +3,7 @@
     "name": "Skill-Replacer",
     "options": {
         "niceName": "Skill-Replacer",
-        "guiName": "Skill-Replacer",
-        "settingsFile": "config.json",
-        "settingsMigrator": "settings_migrator.js",
-        "settingsVersion": 1
+        "guiName": "Skill-Replacer"
     },
     "author": "ZC",
     "description": "描述: ",
