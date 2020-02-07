@@ -10,20 +10,16 @@ It's not full macros so don't hope for autoRepeat function<br>
 
 https://github.com/OverImagine/Skill-Replacer/
 
-Skill-Replacer 忍者火焰术 - 无查克拉消耗(即 无限喷火) 等...
+---以上为作者留下的 说明文档---
+
+Skill-Replacer
 ======
 
 # 功能简介
 
-- Lv.65 忍者 原始 [标枪连射VIII] 技能被替换为 [火焰术VII]
+一个有趣的模组, 能将[1个施法技]能替换为[另1个施法技能]
 
-- 拳师觉醒技能 颱風連打 无限释放
-
-- config.json 中默认配置了更多其他职业的技能 没时间全部测试...
-
-![screenshot](https://github.com/zc149352394/Skill-Replacer/blob/master/screenshot/01.png)
-
-![screenshot](https://github.com/zc149352394/Skill-Replacer/blob/master/screenshot/02.png)
+config.json 中有详细的配置[替换技能]的说明
 
 ------
 
@@ -31,63 +27,42 @@ Skill-Replacer 忍者火焰术 - 无查克拉消耗(即 无限喷火) 等...
 --- | ---
 sr on | 开启模组
 sr off | 关闭模组
+sr reload | 重新载入config.json配置文档
 
 ------
 
-# bug修复 - 支持客户端 v81.03
+举个例: 想要改忍者的[普通攻击]技能
+
+- Job ID -->>这里填13职业的分类编号: 11
+
+  0-warrior-双刀 1-lancer-枪骑 2-slayer-大剑
+
+  3-berserker-斧头 4-sorcerer-魔道
+
+  5-archer-弓箭 6-priest-祭师 7-mystic-元素
+
+  8-reaper-飞镰 9-gunner-魔工 10-brawler-拳师
+
+  11-ninja-忍者 12-valkyrie-月光
+
+  查询技能表:
+
+  1xxxx	Common	Common	Ninja	連續攻擊I	True	Side 	icon_skills.c12_meleecombo
+
+  150732	Common	Common	Ninja	多重分身火焰術	False		icon_skills.c12_flamebreath_awaken
+
+- Skill ID with Floor(ID/10000) -->>这里填[原始技能]头部编号(技能编号/1000): 1
+
+- Just noted -->>这里填 文字说明信息
+
+- Full skill id for replace -->>这里填[替换技能]完整的编号: 150732
+
+- autoRepeat -->>这里填 true 代表[自动循环]这个技能, false 则只释放1次
 
 ------
 
-# 由于此JavaScript经过作者压缩混淆加密 所以反混淆之后只能修改编辑到部分代码
+更多职业技能参考: https://github.com/neowutran/TeraDpsMeterData/tree/master/skills skills-TW.tsv
 
-首先我们来看一下报错提示
+------
 
-![screenshot](https://github.com/zc149352394/Skill-Replacer/blob/master/screenshot/03.png)
-
-很显然只是一个def的版本使用错误导致
-
-![screenshot](https://github.com/zc149352394/Skill-Replacer/blob/master/screenshot/04.png)
-
-- S_LOGIN.12.def 的使用区间为 v77 到 v81
-
-![screenshot](https://github.com/zc149352394/Skill-Replacer/blob/master/screenshot/05.png)
-
-- S_LOGIN.13.def 可应用于 v81 以上版本
-
-![screenshot](https://github.com/zc149352394/Skill-Replacer/blob/master/screenshot/06.png)
-
-复制整个index.js代码至格式化功能网页 从新排版
-
-![screenshot](https://github.com/zc149352394/Skill-Replacer/blob/master/screenshot/07.png)
-
-![screenshot](https://github.com/zc149352394/Skill-Replacer/blob/master/screenshot/08.png)
-
-通过简易反混淆从新获取源代码(转换全文: 16进制字符串 16进制数值)
-
-![screenshot](https://github.com/zc149352394/Skill-Replacer/blob/master/screenshot/09.png)
-
-注意此段代码 这样的格式是否跟这种常见的很像 (别问我为什么知道 常做mod的人一看就眼熟)
-
-![screenshot](https://github.com/zc149352394/Skill-Replacer/blob/master/screenshot/10.png)
-
-![screenshot](https://github.com/zc149352394/Skill-Replacer/blob/master/screenshot/11.png)
-
-现在可以去源代码上修改了
-
-![screenshot](https://github.com/zc149352394/Skill-Replacer/blob/master/screenshot/12.png)
-
-将
-
-al[b('0xf8', '\x40\x28\x6f\x44')](am[b('0xf9', '\x43\x55\x46\x44')], 0xc, bd => {
-
-去掉空格后 在index.js中查询
-
-al[b('0xf8','\x40\x28\x6f\x44')](am[b('0xf9','\x43\x55\x46\x44')],0xc,bd=>{
-
-![screenshot](https://github.com/zc149352394/Skill-Replacer/blob/master/screenshot/13.png)
-
-0xc 代表16进制数 C 转10进制即为 12
-
-0xd 代表什么不用我多说了
-
-![screenshot](https://github.com/zc149352394/Skill-Replacer/blob/master/screenshot/13.png)
+提供1个编辑好的版本 config_edit.json 重命名并替换 config.json
